@@ -1,0 +1,141 @@
+/* body
+{
+    margin:0;
+} */
+#top-section .container-fluid
+{
+background-color:white;
+/* background-color:palevioletred; */
+text-align: center;
+padding:1% 12%;
+}
+h1
+{
+    font-size:  4rem;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+}
+.form-heading
+{
+    color: grey;
+    font-weight: lighter;
+    font-size: 1rem;
+    margin:1rem 0 2rem 0;
+}
+.image2
+{
+   
+ margin:  20px 30px;
+   
+}
+.form-margin
+{
+    margin: 20px auto;
+    
+    /* border:1px solid grey; */
+
+}
+
+
+.form-control
+{
+    font-weight: lighter;
+    background-color: ghostwhite;
+    
+}
+.form-control:hover
+{
+    background-color: ghostwhite;
+}
+
+
+a
+{
+    color:blue;
+}
+.icon-link:hover
+{
+    text-decoration: none;
+    /* color:blue */
+}
+.forget-password
+{
+    display: block;
+    text-decoration: none;
+    color:black;
+    font-size: 90%;
+    margin-top: 1%;
+}
+.forget-password:hover
+{
+    text-decoration: none;
+    color:grey;
+}
+/* @media(max-width:1007px){
+    #section .container-fluid
+    {
+        display: block;
+    }
+} */
+.column1
+{
+    width:80%;
+    
+   
+}
+.column2
+{
+    width:100%;
+    /* margin:2% auto; */
+    padding: 2% 7%;
+}
+@media (max-width:1107px){
+   
+    .column1
+    {
+       display:none;
+    }
+    .column2
+    {
+        border:1px solid grey;
+        /* padding:4%; */
+        width:100%;
+    }
+    
+}
+.rows
+{
+    margin:2% auto;
+}
+.column3
+{
+    border:1px solid grey;
+    margin-top: 5%;
+    padding:1%;
+}
+.column3-heading
+{
+   
+    font-weight: lighter;
+    color: black;
+    font-size: 18px;
+    margin:15px;
+    
+
+}
+h3
+{
+    color:black;
+    font-weight:lighter;
+    font-size: 1.2rem;
+    margin: 8% auto;
+}
+
+
+.download-button
+{
+    margin:2%;
+}
+
